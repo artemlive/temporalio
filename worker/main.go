@@ -20,7 +20,7 @@ func main() {
 	w := worker.New(c, "hello-world", worker.Options{})
 
 	w.RegisterWorkflow(temporalio.Workflow)
-	w.RegisterActivity(helloworld.Activity)
+	w.RegisterActivity(temporalio.Activity)
 
 	err = w.Run(worker.InterruptCh())
 	if err != nil {
