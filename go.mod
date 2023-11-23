@@ -6,7 +6,6 @@ require (
 	go.temporal.io/sdk v1.25.1
 	go.temporal.io/sdk/contrib/tools/workflowcheck v0.1.0
 	go.temporal.io/sdk/contrib/tools/workflowcheck v0.1.0
-	github.com/artemlive/temporalio v0.0.1
 )
 
 require (
