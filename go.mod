@@ -1,4 +1,4 @@
-module temporalio
+module github.com/artemlive/temporalio
 
 go 1.21
 
