@@ -1,7 +1,6 @@
 package main
 
 import (
-	"github.com/temporalio/samples-go/helloworld"
 	"log"
 
 	"go.temporal.io/sdk/client"
