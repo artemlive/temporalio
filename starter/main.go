@@ -2,6 +2,7 @@ package main
 
 import (
 	"context"
+	"github.com/temporalio/samples-go/helloworld"
 	"log"
 
 	"go.temporal.io/sdk/client"
